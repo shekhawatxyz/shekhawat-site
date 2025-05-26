@@ -23,3 +23,10 @@ go.work.sum
 
 # env file
 .env
+
+# Hugo build lock file
+.hugo_build.lock
+
+# Hugo generated directories
+public/
+resources/
