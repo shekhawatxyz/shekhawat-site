@@ -1,5 +1,19 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://shekhawat.site/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title= "Shekhawat's Journey"
 
 theme = 'poison'
+
+[params]
+	brand = "Shekhawat's Journey"
+	brand_image = "/images/digital_cat_art.jpeg"
+	dark_mode = true
+	pluralizelisttitles = false
+	menu = [
+		{ Name = "The Bet", URL = "/the-bet/", HasChildren = false },
+		{ Name = "Tracking", URL = "/tracker/", Pre = "Study Arc at a Glance", HasChildren = true, Limit = 3 }, 
+		{ Name = "Updates", URL = "/updates/", Pre = "Chrono+Milestone Log", HasChildren = true, Limit = 10 }, 
+		{ Name = "Essays", URL = "/essays/", Pre = "Parakram's Pensées", HasChildren = true, Limit = 10 }, 
+	]
+	github_url = "https://github.com/shekhawatxyz"
+	rss_icon = true
