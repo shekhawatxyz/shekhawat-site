@@ -16,4 +16,5 @@ theme = 'poison'
 		{ Name = "Essays", URL = "/essays/", Pre = "Parakram's Pensées", HasChildren = true, Limit = 10 }, 
 	]
 	github_url = "https://github.com/shekhawatxyz"
+	linkedin_url = "https://www.linkedin.com/in/parakram-singh-shekhawat-405a971b7"
 	rss_icon = true
