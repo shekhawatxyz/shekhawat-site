@@ -1,5 +1,5 @@
 baseURL = 'https://shekhawat.site/'
-languageCode = 'en-us'
+locale = 'en-us'
 title= "Shekhawat's Journey"
 
 theme = 'poison'
