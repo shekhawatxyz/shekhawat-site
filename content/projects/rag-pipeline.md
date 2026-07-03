@@ -4,4 +4,6 @@ title = 'Rag Pipeline'
 
 +++
 
-Updating this in a second
+Python retrieval project covering preprocessing, chunking, keyword search, semantic search, reranking, and LLM-grounded answer generation
+
+Repo link will be added after cleanup.
