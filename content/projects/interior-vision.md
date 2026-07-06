@@ -4,4 +4,6 @@ title = 'Interior Vision'
 
 +++
 
-Temp link for my backend project which renders rooms with swappable furniture where the user can see what their room would look like with a piece of furniture and see a running bill, reviews etc.
+Private backend/computer vision project for room-photo upload, furniture replacement previews, product comparison, reviews, and cost estimates.
+
+Repository is private.
