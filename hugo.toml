@@ -1,19 +1,20 @@
 baseURL = 'https://shekhawat.site/'
 locale = 'en-us'
-title= "Shekhawat's Journey"
+title= "Parakram Singh Shekhawat"
+disableKinds = ["taxonomy", "term"]
 
 theme = 'poison'
 
 [params]
-	brand = "Shekhawat's Journey"
+	brand = "Parakram Singh Shekhawat"
 	brand_image = "/images/digital_cat_art.jpeg"
 	dark_mode = true
 	pluralizelisttitles = false
 	menu = [
+		{ Name = "About", URL = "/about/", HasChildren = false },
+		{ Name = "CV", URL = "https://drive.google.com/file/d/1Ne5ARQEwexRyINKjhuvBWmbxBvOMDitZ/view?usp=sharing", HasChildren = false, External = true },
 		{ Name = "Projects", URL = "/projects/", HasChildren = true, Limit = 10 },
-		{ Name = "Tracking", URL = "/tracker/", HasChildren = false },
 		{ Name = "Updates", URL = "/updates/", HasChildren = false },
-		{ Name = "Essays", URL = "/essays/", HasChildren = false },
 	]
 	github_url = "https://github.com/shekhawatxyz"
 	linkedin_url = "https://www.linkedin.com/in/parakram-singh-shekhawat-405a971b7"
