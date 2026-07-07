@@ -4,4 +4,4 @@ title = 'AI Agents'
 
 +++
 
-CLI agent made with Gemini llm api that can inspect files, run python scripts and edit code inside a restricted project folder. Here this is the calculator folder. Github [repo](https://github.com/shekhawatxyz/AI_Agent).
+A Gemini-powered CLI coding agent that can inspect files, run Python scripts, and edit code inside a restricted project folder. [GitHub repo](https://github.com/shekhawatxyz/AI_Agent).

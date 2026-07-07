@@ -4,6 +4,4 @@ title = 'Asteroids'
 
 +++
 
-## Asteroids
-
-A clone of the popular old game built in Python. You control a triangle ship, asteroids spawn from the edges of the screen, spaces shoots bullets, bullets split asteroids, collision with the player ends the game. [Link](https://github.com/shekhawatxyz/Asteroids) for the github repo.
+A Python/Pygame clone of the classic arcade game. You control a triangle ship, shoot incoming asteroids, and lose if one collides with the player. [GitHub repo](https://github.com/shekhawatxyz/Asteroids).

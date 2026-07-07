@@ -1,9 +1,7 @@
 +++
 date = '2026-07-06T22:48:08+05:30'
-title = 'Bookbot'
+title = 'BookBot'
 
 +++
 
-## Bookbot
-
-The first project from my boot.dev course where I made a simple bookbot which can count the number of times characters appear in a text. [Link](https://github.com/shekhawatxyz/bookbot) for the GitHub repo.
+The first project from my Boot.dev course: a small Python CLI that analyzes a text file and counts how often each character appears. [GitHub repo](https://github.com/shekhawatxyz/bookbot).

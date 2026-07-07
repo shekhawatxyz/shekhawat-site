@@ -10,10 +10,10 @@ theme = 'poison'
 	dark_mode = true
 	pluralizelisttitles = false
 	menu = [
-		{ Name = "The Bet", URL = "/the-bet/", HasChildren = false },
-		{ Name = "Tracking", URL = "/tracker/", Pre = "Study Arc at a Glance", HasChildren = true, Limit = 3 }, 
-		{ Name = "Updates", URL = "/updates/", Pre = "Chrono+Milestone Log", HasChildren = true, Limit = 10 }, 
-		{ Name = "Essays", URL = "/essays/", Pre = "Parakram's Pensées", HasChildren = true, Limit = 10 }, 
+		{ Name = "Projects", URL = "/projects/", HasChildren = true, Limit = 10 },
+		{ Name = "Tracking", URL = "/tracker/", HasChildren = false },
+		{ Name = "Updates", URL = "/updates/", HasChildren = false },
+		{ Name = "Essays", URL = "/essays/", HasChildren = false },
 	]
 	github_url = "https://github.com/shekhawatxyz"
 	linkedin_url = "https://www.linkedin.com/in/parakram-singh-shekhawat-405a971b7"

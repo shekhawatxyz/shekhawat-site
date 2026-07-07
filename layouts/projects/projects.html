@@ -1,0 +1,19 @@
+{{ define "main" -}}
+{{ if .Site.Params.light_dark }}
+    {{ partial "light_dark.html" . }}
+{{ end }}
+<h1 class="title">{{ .Title }}</h1>
+<div class="posts">
+    {{ range .Pages.ByDate.Reverse }}
+        <div class="project">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <div class="project-summary">
+                {{ if .Params.featuredImage }}
+                    <img src="{{ .Params.featuredImage }}"><br>
+                {{ end }}
+                {{ .Summary }}
+            </div>
+        </div>
+    {{ end }}
+</div>
+{{ end }}
